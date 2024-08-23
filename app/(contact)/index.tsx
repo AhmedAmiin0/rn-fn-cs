@@ -13,7 +13,7 @@ export default function ContactScreen() {
   return (
     <SafeAreaView>
       <ScrollView
-      style={{ paddingLeft: 24, paddingRight: 24}} 
+      style={{ paddingLeft: 24, paddingRight: 24, paddingTop: 24 }} 
       >
         <BitcoinSection
         ></BitcoinSection>

@@ -34,5 +34,6 @@ font-weight: 400;
 text-transform: capitalize;
 padding-right: 24px;
 flex: 1;
+line-height: 16px;
 
 `
