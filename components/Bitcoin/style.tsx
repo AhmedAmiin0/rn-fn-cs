@@ -2,9 +2,10 @@ import { Text, View } from "react-native";
 import styled from "styled-components";
 
 export const ImageContainer = styled(View)`
- width: 84px;
+  width: 84px;
   height: 84px;
   padding: 18px;
+  padding-bottom: 0;
   justify-content: 'center';
   align-items: 'center';
   border-radius: 1000px;
