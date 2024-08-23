@@ -10,6 +10,7 @@ import CornerCards from '@/components/CornerCard';
 import BitcoinSection from '@/components/Bitcoin';
 import StatisticsCard from '@/components/StatisticsCard';
 import { Paragraph } from '@/components/Paragraph';
+import ExclusiveCards from '../../components/ExculsiveCard';
 
 export default function ContactScreen() {
   return (
@@ -31,6 +32,7 @@ export default function ContactScreen() {
         <View>
           <Paragraph>Activate and flaunt 'Bitcoin' name on your phone in under 5 mins</Paragraph>
         </View>
+        <ExclusiveCards  />
         
 
         {/* <Title style={{ marginBottom: 16 }}>
