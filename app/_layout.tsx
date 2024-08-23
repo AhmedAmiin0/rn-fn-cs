@@ -27,9 +27,17 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={ DarkTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="(contact)"  options={{
+          title: 'Contract',
+          headerTitle: 'Contract',
+          headerStyle: {
+           backgroundColor:'#202020',
+           
+           
+          },
+        }}/>
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>
