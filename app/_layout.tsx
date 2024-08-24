@@ -32,8 +32,6 @@ export default function RootLayout() {
           headerTitle: 'Contract',
           headerStyle: {
            backgroundColor:'#202020',
-           
-           
           },
         }}/>
       </Stack>
