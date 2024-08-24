@@ -6,6 +6,7 @@ import { Paragraph } from '@/components/Paragraph';
 import ExclusiveCards from '../../components/ExculsiveCard';
 import CornerCards from '@/components/CornerCard';
 import Header from '@/components/Header';
+import { KeyBenefits } from '../../sections/KeyBenefits';
 
 export default function ContactScreen() {
   return (
@@ -32,8 +33,14 @@ export default function ContactScreen() {
         <View 
           style={{width: '100%', height: 1, backgroundColor: 'rgba(248, 248, 248, 0.07)', borderRadius: 5, marginVertical:32}}
         ></View>
-        <CornerCards />
 
+        
+
+        {/* <Title style={{ marginBottom: 16 }}>
+          Key benefits
+        </Title>
+        <CornerCards /> */}
+        <KeyBenefits />
       </ScrollView>
     </View>
   );
