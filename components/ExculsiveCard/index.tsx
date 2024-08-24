@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Button, Image, ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native';
 import { ButtonContainer, ButtonText, ExclusiveContainer, IconContainer, Subtitle, Title } from './style';
 
 type Props = {};
@@ -10,20 +10,31 @@ export default function ExclusiveCards({}: Props) {
       <IconContainer>
         <Image source={require('../../assets/images/fill.png')} />
       </IconContainer>
-      <View style={{ flexDirection: 'row', gap: 22, paddingBottom: 24 }}>
-        <View style={{ flexDirection: 'column', flex: 1, width: '41%', height: '100%' }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between',gap:22,height:'100%' }}>
+        <View style={{ flexDirection: 'column', height: '100%',flex:3,paddingBottom:24 }}>
           <Title>Exclusive Bitcoin wallpaper</Title>
           <Subtitle>featuring your auction number—a collectible that can also be traded!</Subtitle>
           <ButtonContainer>
               <ButtonText>Wallpaper</ButtonText>
+              <Image source={require('../../assets/images/right.png')} />
           </ButtonContainer>
         </View>
-        <View style={{ width: '40%', overflow: 'hidden', height: '100%' }}>
-          <Image
+        {/* background: url(<path-to-image>) lightgray -13.748px -3.556px / 119.789% 72.878% no-repeat;background: url(<path-to-image>) lightgray -13.748px -3.556px / 119.789% 72.878% no-repeat; */}
+        <ImageBackground source={require('../../assets/images/darthVader.png')} style={{ height: '100%', width: '100%',
+          flex:2.5,
+          marginTop:-24
+         }} 
+         imageStyle={{
+          borderRadius: 24
+         }}
+         />
+
+        {/* <View style={{ width: '45%', overflow: 'hidden', height: '100%',marginTop:-24  }}> */}
+          {/* <Image
             source={require('../../assets/images/darthVader.png')}
             style={{ height: '100%', width: '100%', borderRadius: 24 }}
-          />
-        </View>
+          /> */}
+        {/* </View> */}
       </View>
     </ExclusiveContainer>
   );
