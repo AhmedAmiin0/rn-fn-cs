@@ -1,9 +1,5 @@
-import { Image, StyleSheet, Platform, ScrollView, Text, SafeAreaView, View } from 'react-native';
+import { Image, ScrollView, SafeAreaView, View } from 'react-native';
 
-
-import styled from 'styled-components';
-import { Title } from '@/components/Title';
-import CornerCards from '@/components/CornerCard';
 import BitcoinSection from '@/components/Bitcoin';
 import StatisticsCard from '@/components/StatisticsCard';
 import { Paragraph } from '@/components/Paragraph';
@@ -30,13 +26,9 @@ export default function ContactScreen() {
           <Paragraph>Activate and flaunt 'Bitcoin' name on your phone in under 5 mins</Paragraph>
         </View>
         <ExclusiveCards  />
-        
-
-        {/* <Title style={{ marginBottom: 16 }}>
-          Key benefits
-        </Title>
-        <CornerCards /> */}
-        {/* <CornerCards /> */}
+        <View 
+          style={{width: '100%', height: 1, backgroundColor: 'rgba(248, 248, 248, 0.07)', borderRadius: 5, marginVertical:32}}
+        ></View>
       </ScrollView>
     </SafeAreaView>
   );

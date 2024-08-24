@@ -4,11 +4,7 @@ import { ScrollView } from "react-native-gesture-handler";
 
 export default function ContactScreen() {
   return (
-
-    <Stack
-      screenOptions={{
-       
-      }}>
+    <Stack>
       <Stack.Screen name="index"
         options={{ headerShown: false }}
       />

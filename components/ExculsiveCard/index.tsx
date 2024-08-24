@@ -19,22 +19,14 @@ export default function ExclusiveCards({}: Props) {
               <Image source={require('../../assets/images/right.png')} />
           </ButtonContainer>
         </View>
-        {/* background: url(<path-to-image>) lightgray -13.748px -3.556px / 119.789% 72.878% no-repeat;background: url(<path-to-image>) lightgray -13.748px -3.556px / 119.789% 72.878% no-repeat; */}
         <ImageBackground source={require('../../assets/images/darthVader.png')} style={{ height: '100%', width: '100%',
           flex:2.5,
           marginTop:-24
          }} 
          imageStyle={{
-          borderRadius: 24
+          borderRadius: 12
          }}
          />
-
-        {/* <View style={{ width: '45%', overflow: 'hidden', height: '100%',marginTop:-24  }}> */}
-          {/* <Image
-            source={require('../../assets/images/darthVader.png')}
-            style={{ height: '100%', width: '100%', borderRadius: 24 }}
-          /> */}
-        {/* </View> */}
       </View>
     </ExclusiveContainer>
   );
