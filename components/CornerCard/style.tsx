@@ -6,6 +6,7 @@ export const CardContainer = styled(View)`
   padding: 24px;
   border-radius: 16px 120px 16px 16px;
   /* margin: 16px; */
+  z-index: 4;
 `;
 export const IconContainer = styled(View)`
   border: 0.5px solid rgba(248, 248, 248, 0.07);
@@ -29,6 +30,7 @@ export const CardButton = styled(Pressable)`
   background: rgba(252, 188, 5, 0.05);
   margin-top: 24px;
   padding: 10px 24px;
+  minHeight: 40px;
   flex: 1;
   align-self: flex-start;
 `

@@ -9,6 +9,7 @@ export const ExclusiveContainer = styled(View)`
     flex:1;
     margin-top: 24px;
     height:270px;
+    min-height: 270px;
     border-radius: 24px;
     border: 1px solid  #8B62FF;
     background: rgba(151, 70, 255, 0.15);
