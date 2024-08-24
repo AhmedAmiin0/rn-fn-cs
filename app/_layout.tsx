@@ -31,8 +31,14 @@ export default function RootLayout() {
           title: 'Contract',
           headerTitle: 'Contract',
           headerStyle: {
-           backgroundColor:'#202020',
+           backgroundColor:'rgba(44, 44, 44,1)',
+            
+          //  borderBottom: '0.5px solid var(--Stroke, rgba(248, 248, 248, 0.07))'
+           
           },
+          // statusBarTranslucent: true,
+          // statusBarStyle:'dark'
+        headerShown:false
         }}/>
       </Stack>
     </ThemeProvider>

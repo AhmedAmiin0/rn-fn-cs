@@ -4,10 +4,13 @@ import BitcoinSection from '@/components/Bitcoin';
 import StatisticsCard from '@/components/StatisticsCard';
 import { Paragraph } from '@/components/Paragraph';
 import ExclusiveCards from '../../components/ExculsiveCard';
+import CornerCards from '@/components/CornerCard';
+import Header from '@/components/Header';
 
 export default function ContactScreen() {
   return (
-    <SafeAreaView>
+    <View>
+    <Header />
       <ScrollView style={{ paddingLeft: 24, paddingRight: 24, paddingTop: 24 }}>
         <BitcoinSection></BitcoinSection>
         <View style={{ flexDirection: 'row', gap: 8, marginBottom: 24 }}>
@@ -29,7 +32,9 @@ export default function ContactScreen() {
         <View 
           style={{width: '100%', height: 1, backgroundColor: 'rgba(248, 248, 248, 0.07)', borderRadius: 5, marginVertical:32}}
         ></View>
+        <CornerCards />
+
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 }
