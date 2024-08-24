@@ -1,6 +1,6 @@
+import { spaces } from '@/shared/constants/Spaces';
 import { Pressable, Text, View } from 'react-native';
 import styled from 'styled-components';
-import { spaces } from '../../constants/Spaces';
 
 export const ExclusiveContainer = styled(View)`
   padding-left: 24px;

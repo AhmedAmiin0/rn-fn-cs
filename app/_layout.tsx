@@ -4,8 +4,8 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
-import { useAppCustomFonts } from '@/hooks/useFonts';
+import { useColorScheme } from '@/shared/hooks/useColorScheme';
+import { useAppCustomFonts } from '@/shared/hooks/useFonts';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -25,21 +25,16 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={ DarkTheme}>
+    <ThemeProvider value={DarkTheme}>
       <Stack>
-        <Stack.Screen name="(contact)"  options={{
+        <Stack.Screen name="index" options={{
           title: 'Contract',
           headerTitle: 'Contract',
           headerStyle: {
-           backgroundColor:'rgba(44, 44, 44,1)',
-            
-          //  borderBottom: '0.5px solid var(--Stroke, rgba(248, 248, 248, 0.07))'
-           
+            backgroundColor: 'rgba(44, 44, 44,1)',
           },
-          // statusBarTranslucent: true,
-          // statusBarStyle:'dark'
-        headerShown:false
-        }}/>
+          headerShown: false
+        }} />
       </Stack>
     </ThemeProvider>
   );

@@ -28,7 +28,7 @@ export default function ExclusiveCards({
           <Subtitle>{subtitle}</Subtitle>
           <ButtonContainer>
             <ButtonText>{buttonText}</ButtonText>
-            <Image source={require('../../assets/images/right.png')} />
+            <Image source={require('@/assets/images/right.png')} />
           </ButtonContainer>
         </View>
         <ImageBackground
@@ -38,7 +38,7 @@ export default function ExclusiveCards({
             width: '100%',
             flex: 2.5,
             marginTop: -24,
-            shadowColor: 'rgb(251, 251, 251)',
+            shadowColor: 'lightgray',
             shadowOffset: { width: 0, height: 0 },
             shadowOpacity: 1,
             shadowRadius: 24,

@@ -1,20 +1,18 @@
 import { Text, View } from "react-native";
 import styled from "styled-components";
 
-export const ImageContainer = styled(View)`
+export const BitCoinImageContainer = styled(View)`
   width: 84px;
   height: 84px;
   padding: 18px;
   padding-bottom: 0;
-  justify-content: 'center';
-  align-items: 'center';
   border-radius: 1000px;
   border: 0.5px solid rgba(248, 248, 248, 0.07);
   background:  #303030;
   margin-bottom: 32px;
   align-self: flex-start;
 `
-export const Title = styled(Text)`
+export const BitCoinTitle = styled(Text)`
 font-family: Saira_600SemiBold;
 font-size: 24px;
 font-style: normal;
@@ -24,7 +22,7 @@ text-transform: capitalize;
 color: #F4F4F4;
 `
 
-export const Subtitle = styled(Text)`
+export const BitCoinSubtitle = styled(Text)`
 color:  #A9A9A9;
 font-variant-numeric: oldstyle-nums proportional-nums;
 font-feature-settings: 'liga' off, 'clig' off;

@@ -5,7 +5,7 @@ import { ButtonText, CardButton, CardContainer, CardContent, IconContainer } fro
 import Svg, { Path, Rect } from 'react-native-svg';
 
 import { useWindowDimensions } from 'react-native';
-import { spaces } from '../../constants/Spaces';
+import { spaces } from '@/shared/constants/Spaces';
 
 export default function CornerCards({
   title,

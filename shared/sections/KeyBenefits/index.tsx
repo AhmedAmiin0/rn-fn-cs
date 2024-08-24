@@ -1,10 +1,8 @@
 import { View } from 'react-native';
-
+import CornerCards from '../../components/CornerCard';
 import { sectionTitle, keyBenefitsContent } from './content';
-import { Title } from '@/shared/components/text/Title';
-import { spaces } from '@/shared/constants/Spaces';
-import CornerCards from '@/shared/components/CornerCard';
-
+import { Title } from '../../components/text/Title';
+import { spaces } from '../../constants/Spaces';
 
 export const KeyBenefits = () => {
   return (

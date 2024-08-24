@@ -1,7 +1,7 @@
 import { Pressable, PressableProps, Text, TextProps, View } from 'react-native';
 import styled from 'styled-components';
-import { spaces } from '../../constants/Spaces';
 import { ViewProps } from 'react-native-svg/lib/typescript/fabric/utils';
+import { spaces } from '@/shared/constants/Spaces';
 
 export const CardContainer = styled(View)<CardContainerProps>`
   position: relative;

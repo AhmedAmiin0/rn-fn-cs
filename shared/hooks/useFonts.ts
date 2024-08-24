@@ -12,7 +12,7 @@ export const useAppCustomFonts = () => {
     Saira_700Bold,
   })
   const [customLoaded, customError] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    SpaceMono: require('@/assets/fonts/SpaceMono-Regular.ttf'),
   });
 
   const loaded = [spaceGrosteskLoaded, sairaFontLoaded, customLoaded].every(Boolean)

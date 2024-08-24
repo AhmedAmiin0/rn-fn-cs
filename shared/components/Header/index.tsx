@@ -15,7 +15,7 @@ export default function Header({ }: Props) {
         style={{paddingBottom:statusBarHeight,width:24}}
       >
 
-      <Image source={require('../../assets/images/left.png')} />
+      <Image source={require('@/assets/images/left.png')} />
       </View>
       <HeaderTitle  statusBarHeight={statusBarHeight}>Contract</HeaderTitle>
       <View style={{width:24}}></View>
