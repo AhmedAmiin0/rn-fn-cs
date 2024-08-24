@@ -6,6 +6,7 @@ import 'react-native-reanimated';
 
 import { useColorScheme } from '@/shared/hooks/useColorScheme';
 import { useAppCustomFonts } from '@/shared/hooks/useFonts';
+import { Colors } from '../shared/constants/Colors';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -25,13 +26,19 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={DarkTheme}>
+    <ThemeProvider value={{
+      dark: true,
+      colors: {
+        ...DarkTheme.colors,
+        background: Colors.dark.background,
+      },
+    }}>
       <Stack>
         <Stack.Screen name="index" options={{
           title: 'Contract',
           headerTitle: 'Contract',
           headerStyle: {
-            backgroundColor: 'rgba(44, 44, 44,1)',
+            backgroundColor: '#2c2c2c',
           },
           headerShown: false
         }} />

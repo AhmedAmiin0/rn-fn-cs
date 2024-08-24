@@ -7,7 +7,6 @@ type Props = {}
 
 export default function Header({ }: Props) {
   const statusBarHeight = getStatusBarHeight();
-  console.log(statusBarHeight)
 
   return (
     <HeaderContainer >

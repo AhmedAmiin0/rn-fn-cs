@@ -1,4 +1,4 @@
-import BitcoinCard from "@/shared/components/Bitcoin/BitcoinCard";
+import BitcoinCard from "@/shared/components/cards/Bitcoin/BitcoinCard";
 
 export default function BitcoinSection() {
   return <BitcoinCard

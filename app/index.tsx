@@ -1,4 +1,4 @@
-import { ScrollView, View } from 'react-native';
+import { Image, ScrollView, View } from 'react-native';
 
 import Header from '@/shared/components/Header';
 
