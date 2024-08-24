@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, View } from 'react-native';
-import { Subtitle, Title } from '../Title';
+import { Subtitle, Title } from '../text/Title';
 import { ButtonText, CardButton, CardContainer, CardContent, IconContainer } from './style';
 import Svg, { Path, Rect } from 'react-native-svg';
 

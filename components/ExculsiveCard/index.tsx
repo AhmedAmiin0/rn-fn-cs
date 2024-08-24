@@ -1,40 +1,62 @@
 import React from 'react';
-import { Button, Image, ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native';
-import { ButtonContainer, ButtonText, ExclusiveContainer, IconContainer, Subtitle, Title } from './style';
+import { Image, ImageBackground, View } from 'react-native';
+import {
+  ButtonContainer,
+  ButtonText,
+  ExclusiveContainer,
+  IconContainer,
+  Subtitle,
+  Title,
+} from './style';
 
-type Props = {};
-
-export default function ExclusiveCards({}: Props) {
+export default function ExclusiveCards({
+  title,
+  subtitle,
+  buttonText,
+  icon,
+  image,
+}: ExclusiveCardProps) {
   return (
     <ExclusiveContainer>
       <IconContainer>
-        <Image source={require('../../assets/images/fill.png')} />
+        <Image source={icon} />
       </IconContainer>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between',gap:22,height:'100%' }}>
-        <View style={{ flexDirection: 'column', height: '100%',flex:3,paddingBottom:24 }}>
-          <Title>Exclusive Bitcoin wallpaper</Title>
-          <Subtitle>featuring your auction number—a collectible that can also be traded!</Subtitle>
+      <View
+        style={{ flexDirection: 'row', justifyContent: 'space-between', gap: 22, height: '100%' }}>
+        <View style={{ flexDirection: 'column', height: '100%', flex: 3, paddingBottom: 24 }}>
+          <Title>{title}</Title>
+          <Subtitle>{subtitle}</Subtitle>
           <ButtonContainer>
-              <ButtonText>Wallpaper</ButtonText>
-              <Image source={require('../../assets/images/right.png')} />
+            <ButtonText>{buttonText}</ButtonText>
+            <Image source={require('../../assets/images/right.png')} />
           </ButtonContainer>
         </View>
-        <ImageBackground source={require('../../assets/images/darthVader.png')} style={{ height: '100%', width: '100%',
-          flex:2.5,
-          marginTop:-24
-         }} 
-         imageStyle={{
-          borderRadius: 12
-         }}
-         />
+        <ImageBackground
+          source={image}
+          style={{
+            height: '100%',
+            width: '100%',
+            flex: 2.5,
+            marginTop: -24,
+            shadowColor: 'rgb(251, 251, 251)',
+            shadowOffset: { width: 0, height: 0 },
+            shadowOpacity: 1,
+            shadowRadius: 24,
+            elevation: 7,
+          }}
+          imageStyle={{
+            borderRadius: 12,
+          }}
+        />
       </View>
     </ExclusiveContainer>
   );
 }
-const styles = StyleSheet.create({
-  container: {},
-  link: {
-    marginTop: 15,
-    paddingVertical: 15,
-  },
-});
+
+export type ExclusiveCardProps = {
+  title: string;
+  subtitle: string;
+  buttonText: string;
+  icon: number;
+  image: number;
+};
