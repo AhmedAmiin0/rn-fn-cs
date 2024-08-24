@@ -1,4 +1,4 @@
-import { ExclusiveCardProps } from "../../components/ExculsiveCard";
+import { ExclusiveCardProps } from "@/shared/components/ExculsiveCard";
 import fillIcon from '@/assets/images/offers/fill.png';
 import darthVader from '@/assets/images/offers/darthVader.png';
 

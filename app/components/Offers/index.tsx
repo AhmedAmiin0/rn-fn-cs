@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import ExclusiveCards from '../../components/ExculsiveCard';
+import ExclusiveCards from '@/shared/components/ExculsiveCard';
 import { offersSectionContent } from './content';
 
 export const Offers = () => {

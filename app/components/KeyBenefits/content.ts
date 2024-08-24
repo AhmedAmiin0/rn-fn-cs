@@ -1,4 +1,4 @@
-import { CornerCardsProps } from '../../components/CornerCard';
+import { CornerCardsProps } from '@/shared/components/CornerCard';
 import discountIcon from '@/assets/images/benefits/discounts.png';
 import checkIcon from '@/assets/images/benefits/check.png';
 import shieldIcon from '@/assets/images/benefits/shield.png';
