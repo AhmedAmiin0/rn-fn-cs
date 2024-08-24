@@ -11,6 +11,7 @@ import BitcoinSection from '@/components/Bitcoin';
 import StatisticsCard from '@/components/StatisticsCard';
 import { Paragraph } from '@/components/Paragraph';
 import ExclusiveCards from '../../components/ExculsiveCard';
+import { KeyBenefits } from '../../sections/KeyBenefits';
 
 export default function ContactScreen() {
   return (
@@ -39,7 +40,7 @@ export default function ContactScreen() {
           Key benefits
         </Title>
         <CornerCards /> */}
-        <CornerCards />
+        <KeyBenefits />
       </ScrollView>
     </SafeAreaView>
   );
