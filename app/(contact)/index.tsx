@@ -1,9 +1,6 @@
 import { Image, StyleSheet, Platform, ScrollView, Text, SafeAreaView, View } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+
 import styled from 'styled-components';
 import { Title } from '@/components/Title';
 import CornerCards from '@/components/CornerCard';
@@ -39,7 +36,7 @@ export default function ContactScreen() {
           Key benefits
         </Title>
         <CornerCards /> */}
-        <CornerCards />
+        {/* <CornerCards /> */}
       </ScrollView>
     </SafeAreaView>
   );

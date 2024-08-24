@@ -8,11 +8,12 @@ export const ExclusiveContainer = styled(View)`
     /* background-color: rgba(151, 70, 255, 0.15); */
     flex:1;
     margin-top: 24px;
-    height:270px;
+    /* height:270px; */
     border-radius: 24px;
     border: 1px solid  #8B62FF;
     background: rgba(151, 70, 255, 0.15);
     overflow: hidden;
+    height: 100%;
 `
 export const IconContainer = styled(View)`
   border-radius: 1000px;
