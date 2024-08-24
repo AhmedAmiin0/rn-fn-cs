@@ -2,7 +2,7 @@ import { Pressable, Text, View } from "react-native";
 import styled from "styled-components";
 
 export const CardContainer = styled(View)`
-  background-color: #303030;
+  /* background-color: #303030; */
   padding: 24px;
   border-radius: 16px 120px 16px 16px;
   /* margin: 16px; */

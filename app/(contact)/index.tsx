@@ -45,6 +45,7 @@ export default function ContactScreen() {
           Key benefits
         </Title>
         <CornerCards /> */}
+        <CornerCards />
       </ScrollView>
     </SafeAreaView>
   );
