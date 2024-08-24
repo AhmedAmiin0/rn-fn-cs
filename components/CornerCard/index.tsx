@@ -11,7 +11,7 @@ type Props = {}
 export default function CornerCards({ }: Props) {
   return (
     <View>
-      <Svg width="100%" height="100%" viewBox="0 0 200 200">
+      {/* <Svg width="100%" height="100%" viewBox="0 0 200 200">
         <Defs>
           <ClipPath id="clip">
             <Path d="M0,0 L200,0 L200,200 L0,200 Z M50,50 L150,50 L150,150 L50,150 Z" />
@@ -24,7 +24,7 @@ export default function CornerCards({ }: Props) {
           height="200"
           fill="blue"
           clipPath="url(#clip)"
-        />
+        /> */}
 
         <CardContainer>
           <IconContainer>
@@ -48,7 +48,7 @@ export default function CornerCards({ }: Props) {
           </View>
 
         </CardContainer>
-      </Svg>
+      {/* </Svg> */}
     </View>
   )
 }

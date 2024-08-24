@@ -52,6 +52,11 @@ padding: 8px 24px;
 justify-content: center;
 align-items: center;
 gap: 4px;
+margin-top: 24px;
+
+align-self: flex-start;
+flex-direction: row;
+
   `
 export const ButtonText = styled(Text)`
       color:  #F4F4F4;
