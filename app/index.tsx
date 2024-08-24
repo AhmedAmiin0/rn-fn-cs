@@ -1,7 +1,5 @@
-import { Image, ScrollView, SafeAreaView, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 
-import StatisticsCard from '@/shared/components/StatisticsCard';
-import { Paragraph } from '@/shared/components/text/Paragraph';
 import Header from '@/shared/components/Header';
 
 import BitcoinSection from '@/app/components/BitcoinSection';
@@ -11,6 +9,7 @@ import ParagraphSection from '@/app/components/ParagraphSection';
 import Divider from '@/shared/components/Divider';
 import { Offers } from './components/Offers';
 import { KeyBenefits } from './components/KeyBenefits';
+import { ViewContracts } from './components/ViewContracts';
 
 export default function ContactScreen() {
   return (
@@ -24,6 +23,7 @@ export default function ContactScreen() {
         <Offers />
         <Divider />
         <KeyBenefits />
+        <ViewContracts />
       </ScrollView>
     </View>
   );

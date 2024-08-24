@@ -1,4 +1,4 @@
-import StatisticsCard from "@/shared/components/StatisticsCard";
+import StatisticsCard from "@/shared/components/cards/StatisticsCard";
 import { View } from "react-native";
 
 export default function StatisticsSection() {
