@@ -33,13 +33,6 @@ export default function ContactScreen() {
         <View 
           style={{width: '100%', height: 1, backgroundColor: 'rgba(248, 248, 248, 0.07)', borderRadius: 5, marginVertical:32}}
         ></View>
-
-        
-
-        {/* <Title style={{ marginBottom: 16 }}>
-          Key benefits
-        </Title>
-        <CornerCards /> */}
         <KeyBenefits />
       </ScrollView>
     </View>
