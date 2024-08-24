@@ -5,7 +5,7 @@ export const Paragraph = styled(Text)`
 color:  #F4F4F4;
 font-variant-numeric: oldstyle-nums proportional-nums;
 font-feature-settings: 'liga' off, 'clig' off;
-font-family: Saira;
+font-family: Saira_400Regular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;

@@ -28,7 +28,7 @@ export const IconContainer = styled(View)`
 export const Title = styled(Text)`
   color:  #F4F4F4;
   font-variant-numeric: oldstyle-nums proportional-nums;
-  font-family: Saira;
+  font-family: Saira_700Bold;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -36,7 +36,7 @@ export const Title = styled(Text)`
 export const Subtitle =  styled(Text)`
 color: #A9A9A9;
 font-variant-numeric: oldstyle-nums proportional-nums;
-font-family: Saira;
+font-family: Saira_400Regular;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
@@ -55,9 +55,9 @@ gap: 4px;
   `
 export const ButtonText = styled(Text)`
       color:  #F4F4F4;
-      font-family: Saira;
+      font-family: Saira_600SemiBold;
       font-size: 12px;
       font-style: normal;
       font-weight: 600;
-      line-height: normal;
+      /* line-height: normal; */
 `

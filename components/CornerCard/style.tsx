@@ -19,7 +19,7 @@ export const IconContainer = styled(View)`
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 100%;
+  border-radius: 40px;
   margin-bottom: 24px;
 `
 
@@ -34,9 +34,8 @@ export const CardButton = styled(Pressable)`
 `
 export const ButtonText = styled(Text)`
 color:  #FCBC05;
-font-family: Saira;
+font-family: Saira_600SemiBold;
 font-size: 12px;
 font-style: normal;
 font-weight: 600;
-line-height: normal;
 `

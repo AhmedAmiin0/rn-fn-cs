@@ -22,7 +22,7 @@ color:  #F4F4F4;
 font-kerning: none;
 font-variant-numeric: oldstyle-nums proportional-nums;
 font-feature-settings: 'ss03' on, 'liga' off, 'clig' off;
-font-family: Saira;
+font-family: Saira_700Bold;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -33,7 +33,7 @@ export const Subtitle = styled(Text)`
 color:  #F4F4F4;
 font-variant-numeric: oldstyle-nums proportional-nums;
 font-feature-settings: 'liga' off, 'clig' off;
-font-family: Saira;
+font-family: Saira_400Regular;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
