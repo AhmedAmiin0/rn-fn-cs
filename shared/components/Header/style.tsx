@@ -11,6 +11,8 @@ export const HeaderContainer = styled(View)`
   width: 100%;
   padding: 0 24px;
   flex-direction: row;
+  border-bottom-color: #3E3E3E;
+  border-bottom-width: 1px;
   `
 export const HeaderTitle = styled(Text)<{ statusBarHeight: number }>`
   color:  #F4F4F4;
