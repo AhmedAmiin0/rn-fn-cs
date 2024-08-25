@@ -6,7 +6,7 @@ import { spaces } from '@/shared/constants/Spaces';
 
 export const KeyBenefits = () => {
   return (
-    <View>
+    <View style={{ marginBottom: 200 }}>
       <Title style={{ marginBottom: spaces.xl }}>{sectionTitle}</Title>
       <View style={{ marginBottom: spaces.xxl }}>
         {keyBenefitsContent.map(card => (

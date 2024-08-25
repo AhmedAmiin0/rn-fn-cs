@@ -15,18 +15,16 @@ export default function ContactScreen() {
   return (
     <View style={{flex:1,flexDirection:'column'}}>
       <Header />
-
+      <ViewContracts />
       <ScrollView style={{ paddingLeft: 24, paddingRight: 24, paddingTop: 24 }}>
         <BitcoinSection />
-        <StatisticsSection />
+        <StatisticsSection /> 
         <AnimatedSection />
         <ParagraphSection />
         <Offers />
         <Divider />
         <KeyBenefits />
       </ScrollView>
-      <ViewContracts />
-
     </View>
   );
 }

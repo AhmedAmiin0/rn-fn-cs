@@ -7,13 +7,14 @@ export const CallToAction = ({
   cta,
   color = '#8B62FF',
   borderColor = '#8B62FF',
+  style,
 }: CallToActionProps) => {
   const { width } = useWindowDimensions();
   const buttonWidth = width - spaces.xxl * 2;
   const buttonHeight = Math.floor((buttonWidth * 70) / 381);
 
   return (
-    <ButtonContainer buttonWidth={buttonWidth} buttonHeight={buttonHeight}>
+    <ButtonContainer buttonWidth={buttonWidth} buttonHeight={buttonHeight} style={style}>
       <Corner buttonWidth={buttonWidth} buttonHeight={buttonHeight} borderColor={borderColor} bgColor={color} />
       <ButtonContent color={color}>
         <ButtonText>{cta}</ButtonText>
@@ -62,5 +63,6 @@ export interface CallToActionProps {
   cta: string;
   color: string;
   borderColor: string;
+  style?: any;
   onPress?: () => void;
 }
