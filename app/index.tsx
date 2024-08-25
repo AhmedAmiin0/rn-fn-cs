@@ -13,8 +13,9 @@ import { ViewContracts } from './components/ViewContracts';
 
 export default function ContactScreen() {
   return (
-    <View>
+    <View style={{flex:1,flexDirection:'column'}}>
       <Header />
+
       <ScrollView style={{ paddingLeft: 24, paddingRight: 24, paddingTop: 24 }}>
         <BitcoinSection />
         <StatisticsSection />
@@ -23,8 +24,9 @@ export default function ContactScreen() {
         <Offers />
         <Divider />
         <KeyBenefits />
-        <ViewContracts />
       </ScrollView>
+      <ViewContracts />
+
     </View>
   );
 }
